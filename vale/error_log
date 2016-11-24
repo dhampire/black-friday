@@ -1,0 +1,21 @@
+[27-Nov-2015 22:05:59 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, null given in /home/www360ts/public_html/cmtajibos/vale/introducir.php on line 249
+[27-Nov-2015 22:07:19 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, null given in /home/www360ts/public_html/cmtajibos/vale/introducir.php on line 249
+[28-Nov-2015 14:53:29 UTC] PHP Warning:  fclose() expects parameter 1 to be resource, null given in /home/www360ts/public_html/lostajibosnews.com/back/vale/introducir.php on line 249
+[28-Nov-2015 15:10:33 UTC] PHP Warning:  require(php/class.phpmailer.php): failed to open stream: No such file or directory in /home/www360ts/public_html/lostajibosnews.com/back/vale/introducir.php on line 146
+[28-Nov-2015 15:10:33 UTC] PHP Warning:  require(php/class.phpmailer.php): failed to open stream: No such file or directory in /home/www360ts/public_html/lostajibosnews.com/back/vale/introducir.php on line 146
+[28-Nov-2015 15:10:33 UTC] PHP Fatal error:  require(): Failed opening required 'php/class.phpmailer.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/www360ts/public_html/lostajibosnews.com/back/vale/introducir.php on line 146
+[28-Nov-2015 15:11:18 UTC] PHP Warning:  require(php/class.phpmailer.php): failed to open stream: No such file or directory in /home/www360ts/public_html/lostajibosnews.com/back/vale/introducir.php on line 146
+[28-Nov-2015 15:11:18 UTC] PHP Warning:  require(php/class.phpmailer.php): failed to open stream: No such file or directory in /home/www360ts/public_html/lostajibosnews.com/back/vale/introducir.php on line 146
+[28-Nov-2015 15:11:18 UTC] PHP Fatal error:  require(): Failed opening required 'php/class.phpmailer.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/www360ts/public_html/lostajibosnews.com/back/vale/introducir.php on line 146
+[28-Nov-2015 15:11:36 UTC] PHP Warning:  require(php/class.phpmailer.php): failed to open stream: No such file or directory in /home/www360ts/public_html/lostajibosnews.com/back/vale/introducir.php on line 146
+[28-Nov-2015 15:11:36 UTC] PHP Warning:  require(php/class.phpmailer.php): failed to open stream: No such file or directory in /home/www360ts/public_html/lostajibosnews.com/back/vale/introducir.php on line 146
+[28-Nov-2015 15:11:36 UTC] PHP Fatal error:  require(): Failed opening required 'php/class.phpmailer.php' (include_path='.:/usr/lib/php:/usr/local/lib/php') in /home/www360ts/public_html/lostajibosnews.com/back/vale/introducir.php on line 146
+[28-Nov-2015 15:12:37 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/www360ts/public_html/lostajibosnews.com/back/php/include/style.cls.php on line 864
+[28-Nov-2015 15:13:45 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in /home/www360ts/public_html/lostajibosnews.com/back/php/include/text_frame_reflower.cls.php on line 62
+[28-Nov-2015 16:06:13 UTC] PHP Parse error:  syntax error, unexpected 'van' (T_STRING) in /home/www360ts/public_html/lostajibosnews.com/back/vale/introducir.php on line 154
+[28-Nov-2015 16:08:08 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/www360ts/public_html/lostajibosnews.com/back/php/class.phpmailer.php:1370) in /home/www360ts/public_html/lostajibosnews.com/back/vale/introducir.php on line 173
+[28-Nov-2015 16:35:47 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting ',' or ';' in /home/www360ts/public_html/lostajibosnews.com/back/vale/introducir.php on line 178
+[28-Nov-2015 16:36:03 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE), expecting ',' or ';' in /home/www360ts/public_html/lostajibosnews.com/back/vale/introducir.php on line 178
+[28-Nov-2015 16:36:29 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/www360ts/public_html/lostajibosnews.com/back/vale/introducir.php on line 178
+[30-Nov-2015 13:38:24 UTC] PHP Parse error:  syntax error, unexpected '$meter' (T_VARIABLE) in /home/www360ts/public_html/lostajibosnews.com/vale/introducir.php on line 26
+[30-Nov-2015 13:43:31 UTC] PHP Parse error:  syntax error, unexpected '$meter' (T_VARIABLE) in /home/www360ts/public_html/lostajibosnews.com/vale/introducir.php on line 26

@@ -13,6 +13,7 @@ $mail = strip_tags($_POST['mail']);
 $correo = $_REQUEST['mail'] ;
 $phone = strip_tags($_POST['phone']);
 $country = strip_tags($_POST['country']);
+$city = strip_tags($_POST['city']);
 $direction = strip_tags($_POST['direction']);
 
 $cuerpo_mensaje ="
@@ -46,13 +47,16 @@ $cuerpo_mensaje ="
                                     <li><strong>Teléfono:</strong> $phone</li>
                                 </ul>
                             </p>
+                            <p>Habitación doble standard (capacidad máximo 4 personas). Late check out sujeto a disponibilidad.
+                            </p>
 
                             <p>
                                 *Fecha de venta: Lunes 28 de Noviembre <br>
                                 *Horario: 8:00 a 22:00<br>
                                 *Promoción no reembolsable <br>
                                 *Cupos limitados por día <br>
-                                *La reserva no es reembolsable
+                                *La reserva no es reembolsable <br>
+                                *<b>Solo válido para los fines de semana</b>
                             </p>
                             <h3>Incluye</h3>
                             <p>
@@ -69,7 +73,7 @@ $cuerpo_mensaje ="
 
                           <center><h3>IMPRIMA ESTE DOCUMENTO PARA REALIZAR SU PAGO </h3></center>
                          
-<center><h2>Forma de Pago</h2></center>
+        <center><h2>Forma de Pago</h2></center>
         
                             <p>Dirigirse a la recepción de: <br>
                 Los Tajibos Hotel & Convention Center en la Avenida San Martin, #455 en Santa Cruz, Bolivia  con su código de confirmación <span style='color:red'>IMPRESO</span> y nuestro personal lo atenderá inmediatamente.</p>                           
@@ -127,8 +131,8 @@ if ($existe = @mysql_fetch_object($query))
 }
 
 else {
-        $meter = @mysql_query('INSERT INTO  registros (name, mail, phone, country, direction, code) 
-        values ("'.$name.'", "'.$mail.'", "'.$phone.'", "'.$country.'", "'.$direction.'", "'.$code.'")');
+        $meter = @mysql_query('INSERT INTO  registros (name, mail, phone, country, city, direction, code) 
+        values ("'.$name.'", "'.$mail.'", "'.$phone.'", "'.$country.'", "'.$city.'", "'.$direction.'", "'.$code.'")');
      
         // PhpMailer 
 

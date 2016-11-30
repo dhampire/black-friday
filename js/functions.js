@@ -36,6 +36,23 @@ $(document).ready(function() {
                     },
                 }
             },
+            pais: {
+                validators: {
+                     stringLength: {
+                        min: 4,
+                    },
+                }
+            },
+            Ciudad: {
+                validators: {
+                        stringLength: {
+                        min: 5,
+                    },
+                        notEmpty: {
+                        message: 'Por favor ingrese su ciudad de origen'
+                    }
+                }              
+            }
             }
         })
 
@@ -97,6 +114,23 @@ $(document).ready(function() {
                 }
             },
 
+            pais: {
+                validators: {
+                     stringLength: {
+                        min: 4,
+                    },
+                }
+            },
+            Ciudad: {
+                validators: {
+                        stringLength: {
+                        min: 5,
+                    },
+                        notEmpty: {
+                        message: 'Por favor ingrese su ciudad de origen'
+                    }
+                }              
+            }
             }
         })
 

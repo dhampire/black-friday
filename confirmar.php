@@ -3,6 +3,7 @@ $name = strip_tags($_POST['nombre']);
 $mail = strip_tags($_POST['mail']);
 $phone = strip_tags($_POST['telefono']);
 $country = strip_tags($_POST['pais']);
+$city = strip_tags($_POST['Ciudad']);
 $direction = strip_tags($_POST['direccion']);
 ?>
 <!DOCTYPE html>
@@ -24,6 +25,7 @@ $direction = strip_tags($_POST['direccion']);
 	                		<li class="list-group-item"><span class="fa fa-check color"></span> <?php echo $mail;?></li>
 	                		<li class="list-group-item"><span class="fa fa-check color"></span> <?php echo $phone; ?></li>
 	                		<li class="list-group-item"><span class="fa fa-check color"></span> <?php echo $country; ?></li>
+	                		<li class="list-group-item"><span class="fa fa-check color"></span> <?php echo $city; ?></li>
 	                		<li class="list-group-item"><span class="fa fa-check color"></span> <?php echo $direction;?></li>
 	                	</ul>
 	                	<center><a onclick="history.go(-1);"">Volver al formulario</a></center>
@@ -40,6 +42,7 @@ $direction = strip_tags($_POST['direccion']);
 								<input type="text" value="<?php echo $mail ;?>" name="mail" hidden>
 								<input type="text" value="<?php echo $phone ;?>" name="phone" hidden>
 								<input type="text" value="<?php echo $country ;?>" name="country" hidden>
+								<input type="text" value="<?php echo $city ;?>" name="city" hidden>
 								<input type="text" value="<?php echo $direction ;?>" name="direction" hidden>
 								<center>
 								<input type="submit" class="btn btn-success" value="Adquiera su Plan ¡Ahora!"/>
